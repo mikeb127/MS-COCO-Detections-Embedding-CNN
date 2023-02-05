@@ -11,8 +11,6 @@ Model details:
 After a set of detection embeddings are generated for an image, they are compared to the ‘ground truth embeddings’
 Each detection embedding is then classified as it’s nearest neighbour in the ground truth embeddings.
 
-Each detection embedding is then classified as it’s nearest neighbour in the ground truth embeddings.
-
 It is currently configured to search the Retinanet 'truck' detections (MS COCO Class 8) for military equipment (missile launchers, self propelled artillery etc).
 
 To use this model for other purposes you must make 3 changes:
